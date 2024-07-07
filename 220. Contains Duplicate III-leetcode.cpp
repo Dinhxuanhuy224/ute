@@ -3,7 +3,7 @@ public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff,
                                        int valueDiff) {
         multiset<int> a;
-        int l = 0;
+        int l = 0; // vua them comment
         int r = 0;
         while (r < nums.size()) {
             if (r - l > indexDiff) {
